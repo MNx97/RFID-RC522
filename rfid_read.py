@@ -1,3 +1,4 @@
+# version: v1
 from time import sleep_ms
 from machine import Pin, SoftSPI
 from mfrc522 import MFRC522

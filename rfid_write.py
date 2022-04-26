@@ -1,4 +1,4 @@
-
+# version: v1
 from mfrc522 import MFRC522
 from machine import Pin, SoftSPI
 sck = Pin(13)
