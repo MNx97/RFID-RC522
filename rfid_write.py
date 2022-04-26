@@ -1,12 +1,12 @@
 # version: v1
 from mfrc522 import MFRC522
 from machine import Pin, SoftSPI
-sck = Pin(13)
-mosi = Pin(2)
-miso = Pin(15)
+sck = Pin(13, Pin.OUT)
+mosi = Pin(2, Pin.OUT)
+miso = Pin(15, Pin.OUT)
 spi = SoftSPI(sck=sck, mosi=mosi, miso=miso)
 
-sda = Pin(21)
+sda = Pin(21, Pin.OUT)
 
 
 rdr = MFRC522(spi, sda)
