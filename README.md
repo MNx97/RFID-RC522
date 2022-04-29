@@ -1,6 +1,8 @@
-# RFID-RC522
-# version v1
-# https://github.com/Tasm-Devil/micropython-mfrc522-esp32
+# RFID-RC522 Programm Beispiel
+version v1
+
+
+https://github.com/Tasm-Devil/micropython-mfrc522-esp32
 
 
 # PIN-Out
