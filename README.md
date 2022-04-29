@@ -3,11 +3,12 @@
 
 
 ## PIN-Out
--   ESP32   |   RFID-RC522  |  
-- 
--     2   |   MOSI        |
--     15  |   MISO        |
--     13  |   SCK         |
--     21  |   SDA         |
+| GPIO ESP32 | Signal |
+| ------------------ | ------------------ |
+| 2 | MOSI |
+| 15 | MISO |
+| 13 | SCK |
+| 21 | SDA |
+
 
 
